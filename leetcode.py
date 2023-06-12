@@ -35,3 +35,15 @@
 #         return num + roman[s[-1]]   
 
 # Longest prefix problem
+
+# class Solution:
+#     def longestCommonPrefix(self, strs: List[str]) -> str:
+#         minstr, maxstr = min(strs), max(strs)
+#         i = 0
+#         while i < len(minstr):
+#             if minstr[i] != maxstr[i]:
+#                 minstr = minstr[:i]
+#             else:
+#                 i += 1
+#         return minstr            
+
