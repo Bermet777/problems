@@ -49,15 +49,5 @@
 
 # Valid Parenthesis
 
-# class Solution:
-#     def isValid(self, s: str) -> bool:
-#         chars = ['(', ')', '{', '}', '[', ']']
-#         new = []
-#         for i in range(len(s)):
-#             if i not in new:
-#                 new.append(i)
-#                 i += 1
-#             else:
-#                 return False
-#         return True 
+
         
