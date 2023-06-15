@@ -61,3 +61,5 @@
 #             elif i != chars[stack.pop()]:
 #                 return False    
 #         return stack == []  
+
+# Remove duplicates
