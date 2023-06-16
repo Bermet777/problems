@@ -73,7 +73,7 @@
 #                 i = i + 1 
 #         return len(nums) 
 
-# version 2
+# version 2 for remove duplicates
 
 # x = 1
 # for i in range(len(nums)-1):
@@ -81,3 +81,4 @@
 # 		nums[x] = nums[i+1]
 # 		x+=1
 # return(x)
+
