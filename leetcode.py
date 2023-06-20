@@ -105,3 +105,4 @@
 #         else:
 #             return len(haystack.split(needle)[0])    
      
+# Search Insert Position
