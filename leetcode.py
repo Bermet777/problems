@@ -118,4 +118,7 @@
 #                 u = mid - 1
 #             else:
 #                 l = mid + 1
-#         return l   
+#         return l  
+
+# Length of Last Word
+ 
