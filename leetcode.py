@@ -121,10 +121,13 @@
 #         return l  
 
 # Length of Last Word
-#  class Solution:
+# class Solution(object):
 #     def lengthOfLastWord(self, s):
-#         end = len(s) - 1
-#         while end > 0 and s[end] == " ": end -= 1
-#         beg = end
-#         while beg >= 0 and s[beg] != " ": beg -= 1
-#         return end - beg
+#         """
+#         :type s: str
+#         :rtype: int
+#         """
+#         wordlist = s.split()
+#         if wordlist:
+#             return len(wordlist[-1])
+#         return 0
