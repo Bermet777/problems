@@ -136,3 +136,5 @@
 #         array_join = int("".join(array_str))
 #         sum = array_join + 1
 #         return [int(j) for j in str(sum)]
+
+# sqrt(x)
