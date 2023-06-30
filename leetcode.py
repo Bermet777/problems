@@ -137,4 +137,3 @@
 #         sum = array_join + 1
 #         return [int(j) for j in str(sum)]
 
-# sqrt(x)
