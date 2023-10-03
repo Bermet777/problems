@@ -129,13 +129,7 @@
 #             return len(l[-1])
 #         return 0    
                 
-# Plus one - my solution
-# class Solution:
-#     def plusOne(self, digits: List[int]) -> List[int]:
-#         array_str = [str(i) for i in digits]
-#         array_join = int("".join(array_str))
-#         sum = array_join + 1
-#         return [int(j) for j in str(sum)]
+
 
 
 
