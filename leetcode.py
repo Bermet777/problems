@@ -49,18 +49,6 @@
 
 # Valid Parenthesis
 
-# class Solution:
-#     def isValid(self, s: str) -> bool:
-#         chars = {'(': ')', '{':'}','[':']'}
-#         stack = []
-#         for i in s:
-#             if i in chars:
-#                 stack.append(i)
-#             elif stack == []:
-#                 return False
-#             elif i != chars[stack.pop()]:
-#                 return False    
-#         return stack == []  
 
 
 
