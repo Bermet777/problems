@@ -12,16 +12,6 @@
 
 # Palindrome number problem
 
-# class Solution:
-#     def isPalindrome(self, x: int) -> bool:
-#         initial = x
-#         reversed = 0
-#         while x > 0:
-#             reversed = (reversed * 10) + x % 10
-#             x = x//10
-#         return initial == reversed 
-
-# Roman numbers problem
 
 
 
